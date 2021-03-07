@@ -1,0 +1,116 @@
+
+.hero {
+	width: 100%;
+	min-height: 100vh;
+	background-image: url('../../assets/images/section1-background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+    
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	margin-left: 100px;
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+
+.site-name {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
+	font-size: 48px;
+	color: #ffffff;
+	line-height: 0.9;
+	text-transform: uppercase;
+    letter-spacing: 4.8px;
+   
+}
+
+
+.tagline {
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 1.1;
+    letter-spacing: 6.82px;
+	color: #ffffff;
+	margin-bottom: 48px;
+    
+}
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+    color: #00B4CC;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 0 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /*Resize the wrap to see the search bar change!*/
+  .wrap{
+    display: flex;
+    align-items: center;
+  }
+  /* Style the search field */
+form.example input[type=text] {
+    padding-left: 113px;
+    padding-right: 113px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    font-family: Josefin Sans;
+    font-size: 14px;
+  
+    width: 100%;
+    background: #f1f1f1;
+  }
+  
+ 
+  form.example button {
+    
+    padding: 5px;
+    background: #2196F3;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  @import "../utils/search";
