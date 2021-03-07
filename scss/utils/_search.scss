@@ -1,25 +1,24 @@
 * {
     box-sizing: border-box;
   }
-  
+
+
   form.example input[type=text] {
-    padding: 10px;
+    margin: auto;
+    padding: 14px;
     font-family: Josefin Sans;
     font-size: 14px;
     border: none;
-    float: left;
-    width: 80%;
     background: #f1f1f1;
   }
   
 
   form.example button {
-    float: left;
-    width: 80%;
     padding: 10px;
     background: #5474FD;
     color: white;
     font-size: 14px;
+    width: 100%;
     border: 1px solid white;
     cursor: pointer;
   }
@@ -28,9 +27,3 @@
     background: #1f6caa;
   }
   
-  /* Clear floats */
-  form.example::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
